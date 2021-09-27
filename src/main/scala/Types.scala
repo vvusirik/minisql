@@ -1,9 +1,9 @@
 package minisql
 
-import scala.collection.mutable.HashMap
+import collection.immutable.Map
 
 package object types {
-  type HashIndex = HashMap[String, Long]
+  type HashIndex = Map[String, Long]
   type Bytes = Array[Byte]
 }
 
